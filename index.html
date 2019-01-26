@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is an example of a meta description.">
+    <meta name=viewport  content="width=device-width, initial-scale=1">
+    <title>ARENA | PDD</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+  </head>
+  <body>
+
+    <div class="header">
+      <p>Welcome to World's End Arena</p>
+      <h2>Choose your Character!</h2>
+    </div>
+
+    <div class="interface">
+      <a href="#" onclick="GameManager.setGameStart('Warrior')">
+        <img src="img/avatar-player/warrior.png" alt="warrior">
+        <div>
+          <h3>Warrior</h3>
+          <p>Warriors have high health and stamina, however their strength also makes them slower!</p>
+          </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Rogue')">
+        <img src="img/avatar-player/rogue.png" alt="rogue">
+        <div>
+          <h3>Rogue</h3>
+          <p>Rogues are swift and deadly with high agility but lack strength!</p>
+          </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Mage')">
+        <img src="img/avatar-player/mage.png" alt="mage">
+        <div>
+          <h3>Mage</h3>
+          <p>Mages specialize in the arcane intellect, drawing power from mana over strength or agility</p>
+          </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Hunter')">
+        <img src="img/avatar-player/Hunter.png" alt="Hunter">
+        <div>
+          <h3>Hunter</h3>
+          <p>Hunters are long-ranged and focus on strong one shots with their bow and arrow</p>
+          </div>
+      </a>
+
+
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+  </body>
+</html>
